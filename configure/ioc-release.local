@@ -1,0 +1,6 @@
+
+SUPPORT=/epics/modules
+EPICS_BASE=/epics/base
+ASYN=$(SUPPORT)/asyn
+MODBUS=$(SUPPORT)/modbus
+EK9000=$(SUPPORT)/ek9000

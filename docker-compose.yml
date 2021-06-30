@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+        ioc:
+                build: .
+                ports:
+                        - "502:502"
+                volumes: 
+                        - ./iocBoot:/epics/ioc/ek9000/iocBoot
+                environment:
+                        IOC: ioc-ek9000-tst01

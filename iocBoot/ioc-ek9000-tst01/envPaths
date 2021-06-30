@@ -1,0 +1,7 @@
+epicsEnvSet("IOC","ioc-ek9000-tst01")
+epicsEnvSet("TOP","/epics/ioc/ek9000")
+epicsEnvSet("SUPPORT","/epics/modules")
+epicsEnvSet("EPICS_BASE","/epics/base")
+epicsEnvSet("ASYN","/epics/modules/asyn")
+epicsEnvSet("MODBUS","/epics/modules/modbus")
+epicsEnvSet("EK9000","/epics/modules/ek9000")
