@@ -15,7 +15,7 @@ ek9000IOC_registerRecordDeviceDriver pdbbase
 
 # Configure the device
 # ek9000Configure takes 4 parameters: your *unique* device name, the IP of the device, the port number and the number of slaves you wish to access
-ek9000Configure("EK9K1", "192.168.1.3", 502, 2)
+ek9000Configure("EK9K1", "10.0.0.3", 502, 2)
 # ek9000ConfigureTerminal takes 4 parameters: the name of the device which it's attached to, the record base name, the device type string, and the position on the rail.
 #ek9000ConfigureTerminal("EK9K1", "TestTerm1", "EL2008", 1)
 #ek9000ConfigureTerminal("EK9K1", "TestTerm2", "EL1004", 2)

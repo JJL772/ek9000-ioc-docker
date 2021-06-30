@@ -2,6 +2,8 @@ version: "3.3"
 services:
         ioc:
                 build: .
+                stdin_open: true
+                tty: true
                 ports:
                         - "502:502"
                 volumes: 
