@@ -1,0 +1,4 @@
+SUPPORT=/epics/modules
+EPICS_BASE=/epics/base
+
+ASYN=$(SUPPORT)/asyn
