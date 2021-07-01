@@ -37,6 +37,6 @@ COPY configure/ioc-release.local /epics/ioc/ek9000/configure/RELEASE.local
 
 COPY run-ioc.sh /epics/run-ioc.sh
 
-EXPOSE 502
+EXPOSE 5064 5065/udp
 
 CMD ["bash", "/epics/run-ioc.sh"]
